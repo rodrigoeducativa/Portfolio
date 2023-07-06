@@ -1,0 +1,108 @@
+* {
+
+    margin: 0;
+    padding: 1%;
+   
+
+}
+
+body {
+
+    font-family: "Arial", sans-serif;
+    color: rgb(255, 255, 255);
+        border: 2px solid blue;
+}
+
+body p {
+
+    color: black;
+}
+
+
+/*    Id     */
+.container {
+    /*largura do container*/
+    width: 90%;
+     /*margin superior, r*/
+    margin-top: 20px;
+     margin: auto;
+    padding: 10px;
+    background-color: black;
+       
+  }
+
+  .container p {
+
+    color: white;
+  }
+  /*    classe    */
+  .titulo  {
+    text-align: center;
+    font-size:x-large;
+    background-color: rgb(146, 158, 67);
+    padding: 24px;
+     }
+     .titulo p {
+        font-size:medium;
+        text-align: left;
+        color:black;
+        margin-left: 50px;
+     }
+  .lista {
+    margin: auto;
+    width: 60%;
+    background-color: rgb(87, 87, 85);
+
+  }
+  .lista a{
+
+    color:white;
+  }
+
+  .lista p {
+    padding:0;
+    color:rgb(0, 0, 0);
+  }
+
+  ul{
+    
+    gap: 16px;
+    padding: 24px 0;
+    list-style: none;
+       
+  }
+
+  ul li{
+
+
+  }   
+       
+ 
+
+ ul li a {
+    color:white;
+    display: flex;
+    justify-content: left;
+    padding: 16px 24px;
+    backdrop-filter: blur(25px);
+    text-decoration: none;
+    transition: background 0.3s;
+  }
+
+  ul li a:hover {
+    background: rgb(255, 255, 255);
+    color: black;
+
+     }
+
+     .rodape{
+
+        padding: 20px;
+     }
+     .rodape p{
+    padding: 30px;
+    text-align: center;
+   
+     }
+    
+     
