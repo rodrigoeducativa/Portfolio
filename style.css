@@ -17,7 +17,7 @@
   --text-color: black;
   --bg-url: url(./assets/bg-desktop-light.jpg);
   --switch-bg-url: url(./assets/moon-star.svg);
- 
+ /*  body*/
 }
 
 body {
@@ -28,13 +28,14 @@ body {
     */
   /*  Resumido - backgroung */
   background: var(--bg-url) no-repeat top center/cover;
-  
+  height: 100vh;
   
 }
 
 body * {
   font-family: "Arial", sans-serif;
   color: var(--text-color);
+  
   
 }
 
@@ -80,6 +81,7 @@ body * {
   left: 0;
   transform: translatey(-50%);
   top: 50%;
+  animation: botaoDeslizaBack 0.2s forwards;
 }
 
 #switch span {
@@ -91,10 +93,18 @@ body * {
   border-radius: 9999px;
 }
 
+#switch button:hover{
+
+  outline: 8px solid rgba(218, 198, 245, 0.652);
+}
+
 .light #switch button {
 
-  right: 0;
+ /* right: 0;
   left: initial;
+*/
+
+animation: botaoDeslizaIn 0.2s forwards;
 
 }
 
@@ -176,5 +186,30 @@ footer {
 
   --bg-url: url(./assets/bg-mobile-light.png);
 }
+
+}
+
+@keyframes botaoDeslizaIn {
+
+from {
+  left: 0;
+}
+
+to {
+left: 50%;
+
+}
+}
+
+@keyframes botaoDeslizaBack {
+
+  from {
+    left: 50%;
+  }
+  
+  to {
+  left: 0;
+  
+  }
 
 }
