@@ -39,7 +39,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O portfólio é um agregador de links para usar como cartão de visitas online.
 
-- [Acesse o projeto finalizado, online](https://rodrigoeducativa.github.io/web/)
+- [Acesse o projeto finalizado, online](https://rodrigoeducativa.github.io/Portfolio/)
 
 ## 🔖 Layout
 
