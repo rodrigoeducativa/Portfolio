@@ -22,7 +22,7 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 
 <br>
 
-<p align="center">
+<p align="center">Tela Incial - Portfólio
   <img alt="Portifolio - tela incial" src="./assets/image-readme.png" width="100%">
 </p>
 
